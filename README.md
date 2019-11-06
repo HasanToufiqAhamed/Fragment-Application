@@ -1,5 +1,4 @@
-# Fragment-Application
-English Letters app using Fragment
+# English Letters app using Fragment with VOICE
 
 **Screenshot**
 
