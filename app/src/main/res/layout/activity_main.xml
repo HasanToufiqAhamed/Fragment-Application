@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:background="@color/whit"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <FrameLayout
+            android:id="@+id/fragmentId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Welcome"
+                android:fontFamily="@font/helsinki"
+                android:textSize="50sp"
+                android:textColor="@color/red"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="A"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"
+                android:onClick="apple"/>
+
+            <Button
+                android:onClick="buttonB"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="B"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="c"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="C"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="d"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="D"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:onClick="e"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="7dp"
+                android:background="@drawable/roundbutton"
+                android:fontFamily="@font/helsinki"
+                android:text="E"
+                android:textColor="@color/whit"
+                android:textSize="40sp" />
+
+            <Button
+                android:onClick="f"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="F"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="g"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="g"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="h"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="h"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:onClick="i"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="i"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="j"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="j"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="k"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="k"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="l"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="l"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:onClick="m"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="M"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="n"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="n"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="o"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="o"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="p"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="p"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:onClick="q"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="q"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="r"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="r"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="s"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="s"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="t"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="t"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:onClick="u"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="u"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="v"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="v"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="w"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="w"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="x"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="x"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:onClick="y"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="y"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+            <Button
+                android:onClick="z"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/roundbutton"
+                android:text="z"
+                android:fontFamily="@font/helsinki"
+                android:textSize="40sp"
+                android:layout_margin="7dp"
+                style="@style/Theme.AppCompat.DayNight.DarkActionBar"
+                android:textColor="@color/whit"/>
+
+
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
